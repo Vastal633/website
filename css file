@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.head{
+    background-color: black;
+    color: white;
+    min-height: 248px;
+    display: flex;
+  
+}
+
+.innerdiv{
+    /* border: solid 1px red; */
+    max-width: 772px;
+    margin: auto
+}
+
+.items{
+    margin-top: 10px;
+}
+.btn{
+    padding: 3px 17px;
+}
+
+#btn1{
+    background-color: red;
+    color: white;
+}
+
+#btn2{
+    background-color: black;
+    color: white;
+    border: solid 0.3px white;
+}
+
+.text{
+    text-align: center;
+}
+
+.text span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.event_area{
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+.event_img{
+    width: 217px
+}
+.mid{
+    width: 331px;
+    font-size: 13px;
+}
+.date_area{
+    display: flex;
+    align-items: end;
+}
+
+.loation_area{
+    align-items: center;
+    display: flex;
+}
+
+.left, mid{
+    margin-right: 12px;
+}
+
+.right button{
+    padding: 3px 29px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.motos{
+    display: flex;
+}
+#belife{
+    
+}
