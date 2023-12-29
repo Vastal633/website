@@ -10,7 +10,6 @@
     color: white;
     min-height: 248px;
     display: flex;
-  
 }
 
 .innerdiv{
@@ -83,7 +82,102 @@
 
 .motos{
     display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    flex-wrap: wrap;
+
+}
+.motos_items{
+   
+    max-width: 307px;
+}
+
+.belife_para{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.belife_head{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.p{
+    text-align: center ;
+    font-size: 14px;
+    color: white;
 }
 #belife{
+    background-color: #29343a;
     
+}
+#intership{
+    background-color: #a83c3c;
+}
+#mission{
+    background-color: #d04845;
+}
+#community{
+    background-color:#dd6042 ;
+}
+
+footer{
+    background-color: #29343a;
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.extra_events_header{
+    text-align: center;
+    margin: 9px 0;
+}
+
+.extra_events_header span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card_area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    border: solid 1px red;
+    
+    width: 309px;
+}
+
+#card1{
+    margin-right: 10px;
+}
+
+#img{
+    width: 309px;
+    height: 200px;
+}
+.info_date,.location{
+    display: flex;
+    align-items: center;
+}
+
+.info_head{
+    font-size: 18px;
+    font-weight: bolder;
 }
